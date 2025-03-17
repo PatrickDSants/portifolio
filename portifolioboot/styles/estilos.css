@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --cor-primaria: #FBF5E5;
+    --cor-secundaria: #1D1616;
+    --cor-terciaria: #1fb2cf;
+    --cor-hover: #1d95ad;
+
+    --fonte-primaria: "Merriweather", sans-serif;
+    --fonte-secundaria: "Tinos", sans-serif;
+}
+
+body{
+    background-color: var(--cor-primaria);
+}
+
+.container-home{
+    background-attachment: fixed;
+}
+
+.titulo{
+    font-family: var(--fonte-primaria);
+}
+
+.titulo-destaque{
+    color: var(--cor-terciaria);
+}
+
+.texto-descricao{
+    font-family: var(--fonte-secundaria);
+}
+
+.img-patrick{
+    width: 100%;
+    max-width: 300px; 
+    height: auto; 
+    border-radius: 10px;
+    border: 2px solid var(--cor-terciaria);
+    border-left: 0px;
+    padding: 2px 2px 2px 0px;
+}
+
+.button-custom {
+    border: 2px solid var(--cor-terciaria);
+    font-size: 24px;
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    padding: 21.5px 0;
+    width: 378px;
+}
+
+.button-custom:hover{
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+}
+
+.img-git{
+    transition: all 0.4s ease;
+    opacity: 0.8;
+}
+
+.img-git:hover{
+    opacity: 1;
+}
+
+.hr3 {
+    border: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, transparent, #2b9cc1, transparent);  
+  }
+
+.sobre-mim{
+    height: 100%;
+    width: 100%;
+}
+
+.img-git{
+    height: 2rem;
+    width: 2rem;
+}
+
+.backup{
+    color: var(--cor-terciaria);
+}
+
+.backup:hover{
+    color: var(--cor-primaria);
+}
+
+.rodape__link {
+    opacity: 0.5;
+    transition: all 0.4s ease;
+    text-decoration: none;
+    color: #f7f2f6;
+}
+
+.rodape__link:hover {
+    opacity: 0.8;
+    font-size: 1.1rem;
+} 
+
+.rodape{
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+

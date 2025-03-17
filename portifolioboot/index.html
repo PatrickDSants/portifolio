@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portifólio</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles/estilos.css">
+</head>
+<body>
+  <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand align-text-top img-git" href="https://github.com/PatrickDSants">
+        <img class="img-git" src="./assets/github.png" alt="Logo do GitHub">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Meu Portifólio:</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobremim">Sobre mim</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Projetos:
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#meusprojetos">Sites</a></li>
+                <li><a class="dropdown-item" href="#capas">Artes</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <main class="container py-5 mt-5" id="home">
+    <div class="container d-flex flex-row container-home">
+        <section class="container d-flex flex-column text-center">
+          <div class="container d-flex flex-column py-3">
+            <h1 class="h1 py-3 titulo m-3">Criando experiências digitais <strong class="titulo-destaque">acessíveis e impactantes.</strong></h1>
+            <p class=" texto-descricao">Sou apaixonado por desenvolver interfaces acessíveis, úteis e limpas. Dedico meu tempo a estudar e aplicar os melhores conceitos de acessibilidade na web. Atualmente, estou aprimorando minhas habilidades em React e focando no Front-end, pois sempre fui fascinado pelo design e pela experiência do usuário. Além da programação, também crio artes digitais, que você pode conferir no meu Twitter.</p>
+          </div>  
+            <div class="container-links">
+                <h2 class="">Acesse minhas <strong class="titulo-destaque">Redes:</strong></h2>
+                <div class="d-flex justify-content-around flex-row py-3 align-items-center flex-wrap grid gap-3">
+                        <a class="button-custom border-2 rounded-3 py-4" href="https://github.com/PatrickDSants"> 
+                            <img class="" src="./assets/instagram.png"> Instagram
+                        </a>
+                        <a class="button-custom border-2 rounded-3 py-4" href="https://www.linkedin.com/in/patrick-anderson-45384a220/"> 
+                            <img class="" src="./assets/linkedin.png"> Linkedin
+                        </a>
+                        <a class="button-custom border-2 rounded-3 py-4" href="https://www.twitch.tv/patrickdsants"> 
+                            <img class="" src="./assets/twitch.png"> Twitch
+                        </a>
+                        <a class="button-custom border-2 rounded-3 py-4" href="https://twitter.com/patriartt"> 
+                            <img class="" src="./assets/twitter.png"> Twitter
+                        </a>
+                </div>
+            </div>
+        </section>
+        <div class="">
+            <img class="img-patrick" src="./assets/foto.jpg" alt="Foto do Patrick Farias">
+        </div>
+    </div>
+
+    <hr class="hr3">
+
+    <div class="d-flex flex-row sobre-mim" id="sobremim">
+      <section class="d-flex flex-column text-center col py-3 m-5">
+        <h2 class="h2 py-3 titulo">Sobre <strong class="titulo-destaque">Mim:</strong></h2>
+        <p class="">Olá, Me chamo Patrick, atualmente estou morando em Portugal, sou um apaixonado por design e desenvolvimento web. Desde que comecei a estudar programação pela Alura, descobri que criar interfaces não é só escrever código, mas sim dar vida a ideias e transformar conceitos em experiências interativas.  
+            Meu grande objetivo é atuar como desenvolvedor front-end, unindo minha paixão por design à funcionalidade do código. Sempre fui fascinado por arte visual – seja nos desenhos que faço ou nas capas de álbuns que crio – e vejo a programação como mais uma forma de expressão.
+        </p>
+        <p class="">
+        Cada linha de código que escrevo é como um traço em uma tela, cada animação é um detalhe que dá alma à página.  
+        Se você busca um desenvolvedor criativo, com olhar apurado para estética e experiência do usuário, entre em contato por meus links. Vamos criar algo incrível juntos! </p>
+    </section>
+    <section class="col m-5">
+        <img class="img-patrick" src="./assets/foto2.jpg" alt="Foto do Patrick Farias">
+    </section> 
+    </div>
+
+    <hr class="hr3">
+
+    <section class="d-flex text-center flex-column py-3 m-5" id="meusprojetos">
+      <header>
+        <h2 class="text-center py-4">Meus <strong class="titulo-destaque">Projetos:</strong></h2>
+      </header>
+      <div class="d-flex justify-content-around flex-row py-3 align-items-center flex-wrap grid gap-3">
+        <article class="card border-2 border-info" style="width: 18rem;">
+          <img src="./assets/calculator.png" class="card-img-top" alt="Imagem do projeto Calculator">
+          <div class="card-body">
+            <h5 class="card-title">Calculator</h5>
+            <p class="card-text">Uma calculadora funcional para operações básicas.</p>
+            <a href="https://patrickdsants.github.io/Calculator/" class="btn btn-outline-info border-2">Acessar</a>
+          </div>
+        </article>
+        <article class="card border-2 border-info" style="width: 18rem;">
+          <img src="./assets/Carousel.png" class="card-img-top" alt="Imagem do projeto Carousel">
+          <div class="card-body">
+            <h5 class="card-title">Carousel</h5>
+            <p class="card-text">Um carrossel interativo de imagens usando JavaScript.</p>
+            <a href="https://patrickdsants.github.io/carousel/" class="btn btn-outline-info border-2">Acessar</a>
+          </div>
+        </article>
+        <article class="card border-2 border-info" style="width: 18rem;">
+          <img src="./assets/jogodavelha.png" class="card-img-top" alt="Imagem do projeto Jogo da Velha">
+          <div class="card-body">
+            <h5 class="card-title">Jogo da velha</h5>
+            <p class="card-text">Um jogo clássico da velha feito com HTML, CSS e JavaScript.</p>
+            <a href="https://jogodavelha-ruby.vercel.app/" class="btn btn-outline-info border-2">Acessar</a>
+          </div>
+        </article>
+        <article class="card border-2 border-info" style="width: 18rem;">
+          <img src="./assets/Newyearcountdown.png" class="card-img-top" alt="Imagem do projeto New Year Countdown">
+          <div class="card-body">
+            <h5 class="card-title">New Year Countdown</h5>
+            <p class="card-text">Contagem regressiva animada para o Ano Novo.</p>
+            <a href="https://new-year-countdown-m1te.vercel.app/" class="btn btn-outline-info border-2">Acessar</a>
+          </div>
+        </article>
+        <article class="card border-2 border-info" style="width: 18rem;">
+          <img src="./assets/passwordgenerator.png" class="card-img-top" alt="Imagem do projeto Password Generator">
+          <div class="card-body">
+            <h5 class="card-title">Password Generator</h5>
+            <p class="card-text">Gerador de senhas seguras e aleatórias.</p>
+            <a href="https://patrickdsants.github.io/PasswordGenerator/" class="btn btn-outline-info border-2">Acessar</a>
+          </div>
+        </article>
+        <article class="card border-2 border-info" style="width: 18rem;">
+          <img src="./assets/stray.png" class="card-img-top" alt="Imagem do projeto Stray Jump n'Run">
+          <div class="card-body">
+            <h5 class="card-title">Stray Jump n'Run</h5>
+            <p class="card-text">Um jogo de plataforma inspirado no universo de Stray.</p>
+            <a href="https://straygame-bweo.vercel.app/" class="btn btn-outline-info border-2">Acessar</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <hr class="hr3">
+
+    <section id="capas">
+      <header>
+        <h2 class="text-center py-4">Minhas Capas de <strong class="titulo-destaque">Álbum:</strong></h2>
+      </header>
+      <div class="d-flex justify-content-around flex-row py-3 align-items-center flex-wrap grid gap-3">
+        <article class="card" style="width: 18rem;">
+          <img src="./assets/bossaitucapa.jpg" class="card-img-top" alt="Capa do álbum Peladona - Itu7">
+          <div class="card-body">
+            <p class="card-text">Peladona - Itu7</p>
+          </div>
+        </article>
+        
+        <article class="card" style="width: 18rem;">
+          <img src="./assets/campeos.png" class="card-img-top" alt="Capa do álbum Campeões - Itu7, Gui G, Patr3, esko">
+          <div class="card-body">
+            <p class="card-text">Campeões - Itu7, Gui G, Patr3, esko</p>
+          </div>
+        </article>
+        
+        <article class="card" style="width: 18rem;">
+          <img src="./assets/correria.png" class="card-img-top" alt="Capa do álbum Correria - Patr3 & Itu7">
+          <div class="card-body">
+            <p class="card-text">Correria - Patr3 & Itu7</p>
+          </div>
+        </article>
+        
+        <article class="card" style="width: 18rem;">
+          <img src="./assets/meumomento.jpg" class="card-img-top" alt="Capa do álbum Meu momento - Kalli B">
+          <div class="card-body">
+            <p class="card-text">Meu momento - Kalli B</p>
+          </div>
+        </article>
+        
+        <article class="card" style="width: 18rem;">
+          <img src="./assets/tsar-itu 2.png" class="card-img-top" alt="Capa do álbum Tsar (album) - Itu7">
+          <div class="card-body">
+            <p class="card-text">Tsar (album) - Itu7</p>
+          </div>
+        </article>
+        
+        <article class="card" style="width: 18rem;">
+          <img src="./assets/tsar-itu 3.3.png" class="card-img-top" alt="Capa do álbum Tsar - Itu7">
+          <div class="card-body">
+            <p class="card-text">Tsar - Itu7</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <a class="btn btn-outline-info rounded-circle backup py-1 border-2 position-relative bottom-0 start-50 translate-middle-x mt-5" href="#home" aria-label="Voltar ao topo">𖤂</a>
+</main>
+
+<footer class="rodape">
+    <a class="rodape__link" href="https://github.com/PatrickDSants" target="_blank">Coded by <img class="img-git" src="./assets/github2.png"></a>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+</body>
+</html>
