@@ -13,8 +13,6 @@
 
 - [Descrição do projeto](#descrição-do-projeto)
 
-- [Funcionalidades](#funcionalidades)
-
 - [Ferramentas utilizadas](#ferramentas-utilizadas)
 
 - [Acesso ao projeto](#acesso-ao-projeto)
@@ -47,7 +45,7 @@
 
 ## Acesso ao projeto
 
-Você pode [acessar o código fonte do projeto](https://github.com/PatrickDSants/jogodavelha)
+Você pode [acessar o código fonte do projeto](https://github.com/PatrickDSants/portifolio/tree/main)
 
 
 by PatrickDSants See my LinkedIn https://www.linkedin.com/in/patrick-anderson-45384a220/
