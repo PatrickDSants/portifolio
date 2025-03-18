@@ -123,5 +123,13 @@ body{
     font-weight: 400;
 }
 
+@media only screen and (max-width: 768px) {  
+      .img-patrick{
+         display: none;
+      }
 
-
+      body{
+        align-items: center;
+        text-align: center;
+      }
+    }
