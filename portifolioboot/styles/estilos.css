@@ -130,6 +130,7 @@ body{
 
       .sobre-mim{
         flex-direction: column;
+        display: inline;
       }
 
       .media-sobre{
