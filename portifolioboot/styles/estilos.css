@@ -128,6 +128,10 @@ body{
          display: none;
       }
 
+      .media-sobre{
+        width: 100%;
+      }
+
       body{
         align-items: center;
         text-align: center;
