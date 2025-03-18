@@ -26,6 +26,18 @@ body{
     font-family: var(--fonte-primaria);
 }
 
+.offcanvas-custom{
+    background-color: var(--cor-terciaria);
+}
+
+.links-estilo{
+    color: var(--cor-primaria);
+}
+
+.links-estilo:hover{
+    color: var(--cor-terciaria);
+}
+
 
 .titulo-destaque{
     color: var(--cor-terciaria);
