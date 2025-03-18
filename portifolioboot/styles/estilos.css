@@ -22,6 +22,11 @@ body{
     font-family: var(--fonte-primaria);
 }
 
+.fonte-principal{
+    font-family: var(--fonte-primaria);
+}
+
+
 .titulo-destaque{
     color: var(--cor-terciaria);
 }
