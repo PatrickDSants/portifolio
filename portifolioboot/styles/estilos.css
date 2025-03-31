@@ -59,6 +59,14 @@ body{
      font-family: var(--fonte-secundaria);
 }
 
+.titulo-card{
+    color: var(--cor-primaria)
+}
+
+.texto-descricao{
+    color: var(--cor-primaria);
+}
+
 .button-custom {
     border: 2px solid var(--cor-terciaria);
     font-size: 24px;
