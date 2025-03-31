@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-    --cor-primaria: #FBF5E5;
-    --cor-secundaria: #1D1616;
-    --cor-terciaria: #1fb2cf;
-    --cor-hover: #1d95ad;
+    --cor-primaria: #030303;
+    --cor-secundaria: #D4C9BE;
+    --cor-terciaria: #123458;
+    --cor-hover: #143D60;
 
     --fonte-primaria: "Merriweather", sans-serif;
     --fonte-secundaria: "Tinos", sans-serif;
