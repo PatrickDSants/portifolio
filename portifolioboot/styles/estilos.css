@@ -10,8 +10,8 @@
     --fonte-secundaria: "Tinos", sans-serif;
 }
 
-.cor-principal{
-    background-color: var(--cor-primaria);
+.cor-background{
+    background-color: var(--cor-secundaria);
 }
 
 body{
