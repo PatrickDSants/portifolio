@@ -32,6 +32,10 @@ body{
     font-family: var(--fonte-primaria);
 }
 
+.links-estilo{
+    color: var(--cor-secundaria);
+}
+
 .links-estilo:hover{
     color: var(--cor-terciaria);
 }
